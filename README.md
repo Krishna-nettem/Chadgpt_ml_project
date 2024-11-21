@@ -34,38 +34,32 @@ Includes comprehensive performance visualization:
 
 ## Requirements
 - Python 3.10+
-- PyTorch
-- Pandas
-- Matplotlib
 - Seaborn
-- transformers>=4.6.0,<5.0.0
 - tokenizers>=0.10.3
-- tqdm
 - torch>=1.6.0
 - torchvision
-- numpy
-- scikit-learn
 - scipy
 - nltk
 - sentencepiece
 - huggingface-hub
-
+- torch==2.0.1
+- pandas==2.0.1
+- numpy==1.24.3
+- datasets==2.14.4
+- scikit-learn==1.2.2
+- transformers==4.31.0
+- matplotlib==3.7.1
+- tqdm==4.65.0
+- sentence-transformers==2.2.2
+- faiss-gpu==1.7.2
+- blingfire==0.1.8
+- peft==0.4.0
+- trl==0.5.0
+- unicodedata
 
 
 ## Usage
 python
-# Load model and make predictions
-from science_exam_qa import predict_questions
-
-predictions = predict_questions(test_dataframe)
-
-
-## Evaluation
-Run performance metrics and generate visualizations:
-python
-from science_exam_qa import evaluate_model
-
-metrics, plots = evaluate_model(ground_truth, predictions)
 
 
 ## Model Limitations
@@ -76,10 +70,17 @@ metrics, plots = evaluate_model(ground_truth, predictions)
 ## Contributing
 Contributions, issues, and feature requests are welcome!
 
-## License
-[Specify your license]
+
 
 ## Acknowledgments
 - Kaggle LLM Science Exam Competition
 - Longformer Model
 - Open-source ML community
+
+
+## Special thanks to : 
+- Dr. Prerna Mukherjee Mam
+- Mohammadreza Banaei
+
+## Kaggle Link(Public)
+https://www.kaggle.com/code/nettemkrishna/chad-gpts/
