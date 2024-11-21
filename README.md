@@ -38,17 +38,17 @@ Includes comprehensive performance visualization:
 - Pandas
 - Matplotlib
 - Seaborn
--transformers>=4.6.0,<5.0.0
--tokenizers>=0.10.3
--tqdm
--torch>=1.6.0
--torchvision
--numpy
--scikit-learn
--scipy
--nltk
--sentencepiece
--huggingface-hub
+- transformers>=4.6.0,<5.0.0
+- tokenizers>=0.10.3
+- tqdm
+- torch>=1.6.0
+- torchvision
+- numpy
+- scikit-learn
+- scipy
+- nltk
+- sentencepiece
+- huggingface-hub
 
 
 
